@@ -1,0 +1,53 @@
+.car-img {
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+    transition: 0.4s;
+}
+
+.car-img:hover {
+    filter: brightness(0.7);
+    transform: scale(1.03);
+}
+
+.car-img {
+    transition: 0.4s ease;
+}
+
+.car-img:hover {
+    box-shadow: 0 0 20px #d4af37;
+    transform: scale(1.03);
+}
+
+.card {
+    transition: 0.4s;
+}
+
+.card:hover {
+    border: 3px solid #C9A86A;
+    box-shadow: 0 0 15px #C9A86A;
+}
+
+.hero-text {
+    z-index: 2;
+    width: 60%;
+    max-width: 750px;
+}
+
+.hero-text h1 {
+    font-family: Georgia, serif;
+}
+
+@media (max-width: 768px) {
+    .hero-text {
+        width: 100%;
+    }
+
+    .hero-text h1 {
+        font-size: 38px;
+    }
+
+    .hero-text p {
+        font-size: 14px !important;
+    }
+}
