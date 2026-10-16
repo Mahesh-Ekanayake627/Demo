@@ -67,3 +67,11 @@
  line-height: 1.1;
  font-size: calc(1.0rem + 2.7vw);
 }
+
+.social-icon {
+    width: 65px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
